@@ -12,7 +12,6 @@
   background-color: #eee;
   margin: 0.5em;
   padding: 0.3em 0;
-  height: 1.6em;
   border-radius: 4px;
 }
 .heroes li:hover {
@@ -55,6 +54,8 @@ input {
   padding: 0.5rem 1.5rem;
   font-size: 1rem;
   margin-bottom: 2rem;
+  margin-left: 0.75rem;
+  line-height: 1.125;
 }
 
 .add-button:hover {
@@ -63,16 +64,23 @@ input {
 }
 
 button.delete {
-  position: absolute;
-  left: 210px;
-  top: 5px;
-  background-color: white;
+  float: right;
+  background-color: #eeeeee;
   color: #525252;
   font-size: 1.1rem;
   padding: 1px 10px 3px 10px;
+  border: 0px;
 }
 
 button.delete:hover {
-  background-color: #525252;
-  color: white;
+  color: red;
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+a:link,
+a:visited {
+  color: black;
+}
+a:hover {
+  color: #525252;
 }

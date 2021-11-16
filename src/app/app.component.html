@@ -7,17 +7,16 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-
-
-<h1>{{title}}</h1>
+<h1 class="app-title">{{ title }}</h1>
 <nav>
-    <a routerLink="/dashboard">Dashboard</a>
-    <a routerLink="/heroes">Heroes</a>
+  <button mat-flat-button routerLink="/dashboard">Dashboard</button>
+  <button mat-flat-button routerLink="/heroes">Heroes</button>
 </nav>
+
+<!-- <a routerLink="/dashboard">Dashboard</a> -->
+<!-- <a routerLink="/heroes">Heroes</a> -->
 <router-outlet></router-outlet>
-<app-messages></app-messages>
-
-
+<mat-divider></mat-divider>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
